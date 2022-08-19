@@ -1,7 +1,7 @@
 # Local URL Generator
 This app shorten and generate new URLs.
 
-**Link to project:** 
+**Link to project:** https://simple-url-generator.herokuapp.com/
 
 ![alt tag](http://placecorgi.com/1200/650)
 
