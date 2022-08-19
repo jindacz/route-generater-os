@@ -67,7 +67,6 @@ app.get('/:shortLink', async (req, res) => {
 	try {
 		const data = await readFromDb('shortUrl', req.params.shortLink);
 		if (data) {
-			// 该资源已经被永久改变了位置，通常会发送HTTP Location来重定向到longUrl
 			res.status(301).redirect(data.longUrl);
 		} else {
 			// Send a response.to handle error
@@ -93,7 +92,7 @@ app.post('/', async (req, res) => {
 		if (reqBody.randomize === 'on') {
 			// call createShort to start change url, pass in the whole string
 			shortUrl = createShort(`${reqBody.longUrl}${randomizeDate}${randomizeNum}`);
-		// make it unique is not checked
+			// make it unique is not checked
 		} else {
 			shortUrl = createShort(reqBody.longUrl);
 		}
@@ -105,7 +104,7 @@ app.post('/', async (req, res) => {
 		writeToDb(reqBody.longUrl, shortUrl, reqBody.timesVisited, reqBody.ttl);
 
 		const data = shortUrl;
-		// get the origin url
+		// get the origin URL
 		const reqOrigin = req.headers.origin;
 		// combine original/hashvalue to get the final url
 		const shortenedUrl = `${reqOrigin}/${shortUrl}`;
