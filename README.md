@@ -12,7 +12,7 @@ This app shorten and generate new URLs.
 
 
 ## Optimizations
-
+- Include Frontend frameWork such as React.JS, Next.JS
 
 ## Lessons Learned:
 
