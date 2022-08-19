@@ -13,6 +13,7 @@ This app shorten and generate new routes, Please drop a link to make it shorter.
 
 ## Optimizations
 - Include Frontend frameWork such as React.JS, Next.JS
+- Include new encoding algorithms.
 
 ## Lessons Learned:
 
