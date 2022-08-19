@@ -1,5 +1,5 @@
-# Local URL Generator
-This app shorten and generate new URLs.
+# Route Generator
+This app shorten and generate new routes, Please drop a link to make it shorter.
 
 **Link to project:** https://simple-url-generator.herokuapp.com/
 
