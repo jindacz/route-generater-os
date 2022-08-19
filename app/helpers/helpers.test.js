@@ -3,7 +3,7 @@ const { urlValidator, createShort } = require('../helpers/helpers');
 test('Check if short-hash matches', () => {
 	const input_1 = 'https://www.npmjs.com/package/shorthash';
 	const input_2 = 'https://www.npmjs.com/package/jest';
-	const input_3 = 'https://github.com/nmpereira/shortUrl';
+	const input_3 = 'https://github.com/jindacz/node-url-generator';
 
 	expect(createShort(input_1)).toEqual('da47c1f2');
 	expect(createShort(input_2)).toEqual('a9d46efa');
@@ -13,7 +13,7 @@ test('Check if short-hash matches', () => {
 test('Check for valid url (valid)', () => {
 	const input_1 = 'https://www.npmjs.com/package/shorthash';
 	const input_2 = 'https://www.npmjs.com/package/jest';
-	const input_3 = 'https://github.com/nmpereira/shortUrl';
+	const input_3 = 'https://github.com/jindacz/node-url-generator';
 
 	expect(urlValidator(input_1)).toEqual(true);
 	expect(urlValidator(input_2)).toEqual(true);
@@ -31,9 +31,9 @@ test('Check for valid url (empty)', () => {
 });
 
 test('Check for valid url (invalid)', () => {
-	const input_1 = 'https3://github.com/nmpereira/shortUrl';
-	const input_2 = 'https***://github.com/nmpereira/shortUrl';
-	const input_3 = '#https#://github.com/nmpereira/shortUrl';
+	const input_1 = 'https32://github.com/jindacz/node-url-generator';
+	const input_2 = 'http.com/jindacz/node-url-generator';
+	const input_3 = 'httz/node-url-generator';
 	const input_4 = 'https';
 	const input_5 = 'asdasdasd';
 	const input_6 = '23424';
