@@ -1,33 +1,19 @@
-//1. Initialize npm and install dependencies
-// express, dotenv, cors, moogose, ejs, nodemon
+# Local URL Generator
+This app shorten and generate new URLs.
 
-//2. Require dependencies in server.js
+**Link to project:** 
 
-//3. Declare variables
+![alt tag](http://placecorgi.com/1200/650)
 
-//7. Create gitignore file and push to github
+## How It's Made:
 
-//4. Connect to MongoDB - add connection string to .env file
+**Tech used:** HTML, CSS, JavaScript, Node.js, MongoDB
 
-//5. Add .env file to gitignore
 
-//5. Create Port
 
-//----Test Mongo and Port Connection
+## Optimizations
+- Include Frontend frameWork such as React.JS, Next.JS
 
-//6. Set middleware
+## Lessons Learned:
 
-//8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
-
-//9. From root, init local git repo and commit
-
-//10. Create heroku repo
-
-// heroku login
-// heroku create simple-rap-api
-// echo "web: node server.js" > Procfile
-// git add . 
-// git commit -m "changes"
-// git push heroku main
-
-//----Test Heroku Link
+Learned and practiced the usage of Node package such as cors, dotenv, ejs, express, jest, moment, mongoose, nodemon ...
