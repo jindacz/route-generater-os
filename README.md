@@ -1,5 +1,5 @@
 # Route Generator
-This app shorten and generate new routes, Please drop a link to make it shorter.
+This a full-stack web application, which can generate a new shorter route, Please drop a link to give it a try.
 
 **Link to project:** https://simple-url-generator.herokuapp.com/
 
