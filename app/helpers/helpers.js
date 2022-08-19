@@ -1,8 +1,7 @@
 const moment = require('moment');
-// Get a short hash from a string. Uses Bernstein's popular 'times 33' hash algorithm but returns a hex string instead of a number.
+// Get a short hash from a string.
 const shortHash = require('short-hash');
 // Handle GET requests to /api route
-/* istanbul ignore next */
 const logger = (req, res, next) => {
 	console.log(
 		`${req.method}: '${req.protocol}://${req.get(
