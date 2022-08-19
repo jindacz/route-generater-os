@@ -11,15 +11,17 @@
 
 <body>
 
-    <h2>URL shortner</h2>
+    <h1>Route Generator</h2>
 
-    <h2>Paste a link to shorten it</h2>
+    <h2>Please drop a link to make it shorter 😎</h2>
     <!-- form -->
+    <section class="form">
     <form action="/" method="post">
-        <input type="text" name="longUrl" placeholder="Paste a link to shorten it">
+        <input type="text" name="longUrl" placeholder="Paste a link here">
         <input type="checkbox" id="randomize" name="randomize">Make it unique</input>
         <input type="submit" value="Shorten">
     </form>
+    </section>
     <!-- display result -->
     <h4>
         <% if(shortenedUrl){ %>

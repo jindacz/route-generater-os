@@ -1,3 +1,16 @@
 body {
 	font-family: 'Arial', sans-serif;
+	background-color: rgb(248, 186, 195);
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+.form{
+	margin: auto;
 }
